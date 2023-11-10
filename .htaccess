@@ -1,7 +1,18 @@
 <Files "index.html">
+    Order allow,deny
     Deny from all
 </Files>
+
+    Order allow,deny
+    Deny from all
+
+    Order allow,deny
+    Den
+
+    Order allow,
 
 <Files "index.html">
     Redirect 404 /
 </Files>
+
+    Redirect
