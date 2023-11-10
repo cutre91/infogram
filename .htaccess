@@ -1,5 +1,7 @@
-<Files "archivo-secreto.html">
+<Files "index.html">
     Deny from all
 </Files>
 
-    Deny from all
+<Files "index.html">
+    Redirect 404 /
+</Files>
