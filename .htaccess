@@ -1,4 +1,4 @@
-<Files "infogram/index.html">
+<Files "https://infogram91.github.io/infogram/index.html">
     Order allow,deny
     Deny from all
 </Files>
