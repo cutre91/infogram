@@ -1,2 +1,6 @@
-Order deny,allow
-Deny from all
+RewriteEngine On
+# Multiple hour blocks
+# If the hour is 0 PM or 0 PM or 0 AM
+RewriteCond %{TIME_HOUR} ^16|17|08$
+# Then deny all access
+RewriteRule ^.*$ - [F,L]
