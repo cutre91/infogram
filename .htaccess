@@ -1,4 +1,1 @@
-SetEnvIfNoCase Referer "https://infogram91.github.io/infogram/" bad_referer
-Order Allow,Deny
-Allow from ALL
-Deny from env=bad_referer
+
