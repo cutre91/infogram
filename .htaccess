@@ -1,4 +1,4 @@
-<Files "index.html">
+<Files "infogram/index.html">
     Order allow,deny
     Deny from all
 </Files>
